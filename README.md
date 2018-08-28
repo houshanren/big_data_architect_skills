@@ -7,9 +7,25 @@
  - 一：平台建设
    - 1.行业平台
      - 1）大平台
+         - 谷歌云
+         - 亚马逊云
+         - 阿里云
+         - 腾讯云
+         - 网易云
+         - 华为云
      - 2）小平台
+         - 国云
+         - 国双
+         - 青云
+         - 勤思
      - 3）专业工具平台
+         - 海致BDP
+         - 永洪
      - 4）APP分析平台
+         - mix panel
+         - growing IO
+         - 神策
+         - 诸葛 IO
    - 2.技术选型
      - 1）CDH
      - 2）HDP+HDF
@@ -17,14 +33,48 @@
      - 4）Transwarp 
    - 3.平台架构
      - 1）HDP Core(平台核心)
+         - Hadoop(基础存储计算)
+         - Yarn(基础资源调度)
+         - Oozie(任务调度编排)
+         - Slider(调度支持 新版已经集成yarn)
      - 2）Enterpise Data Warehouse(企业数据仓库)
+         - Pig(基础脚本服务)
+         - Hive(数据仓库存储)
+         - Druid(adhoc方案 实时多维查询和分析)
+         - Tez(简化增强hive)
+         - Sqoop(数据导入导出工具)
      - 3）Data sclence(数据科学)
+         - Spark(内存通用并行计算)
+         - Spark sql(结构化数据处理) 
+         - Spark streaming(spark流式处理)
+         - Zeppelin(界面分析挖掘工具)
      - 4）Operational data store(操作KV存储)
+         - Hbase(kv数据存储)
+         - Phoenix(hbase 类sql查询)
      - 5）Securlty governance(安全治理)
+         - Knox(鉴权工具)
+         - Ranger(权限管理工具)
+         - Atlas(元数据溯源与数据治理工具)
      - 6）Stream procressing(流式计算)
+         - Storm(实时数据处理分析)
+         - Kafka(数据消息队列)
+         - Streaming Analytics Manager	(流式数据处理界面工具)
      - 7）Operations(平台运维工具)
+         - Ambari(大数据平台管理工具)
+         - Ambari Metrics(监控平台各类服务及主机的运行情况)
+         - Ambari Infra
+         - Zookeeper(基础分布式保证工具)
+         - Solr(搜索应用 操作日志存储)
      - 8）Data operation platform(数据操作平台)
+         - NiFi(数据 ETL 数据流处理)
+         - NiFi Registry(NiFi版本管理工具)
+         - Hue(大数据交互界面平台)
      - 9）Data visualization(数据可视化工具)
+         - Superset(数据分析界面工具)
+         - FineBI(BI界面分析工具)
+         - (Cboard) 主用于数据导出
+         - Metabase
+         - 对比 Saiku Tableau Qlikview 
      - 10）Kylin(MOLAP数据分析工具)
    - 4.资源申请
      - 1）基准测试
@@ -256,6 +306,9 @@
    - 3.上通下达
    - 4.拒绝沉溺(不要给鱼)
    - 5.老司机别翻车
+       - 容忍与控制
+       - 不要触碰底线
+       - 没有什么是烧烤不能解决的 如果有那就两顿
  - 三：技术能力 
  - 四：人生之路
    - 1.平衡之道
@@ -304,4 +357,4 @@
 	      - 《影响力》
 
 # 技能图
-![](img/大数据架构师该做到的.jpg)
+![](img/大数据架构师该做到的.j1pg)
