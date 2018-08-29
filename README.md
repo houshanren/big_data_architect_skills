@@ -22,15 +22,15 @@
          - 海致BDP
          - 永洪
      - 4）APP分析平台
-         - mix panel
-         - growing IO
-         - 神策
-         - 诸葛 IO
+         - <a href="https://mixpanel.com/">mix panel</a>
+         - <a href="https://www.growingio.com/">growing IO</a>
+         - <a href="http://www.sensorsdata.cn/">神策</a>
+         - <a href="https://zhugeio.com/">诸葛 IO</a>
    - 2.技术选型
-     - 1）CDH
-     - 2）HDP+HDF
-     - 3）MAPR
-     - 4）Transwarp 
+     - 1）<a href="https://www.cloudera.com/products/open-source/apache-hadoop/key-cdh-components.html" >CDH</a>
+     - 2）<a href="https://hortonworks.com/products/">HDP+HDF</a>
+     - 3）<a href="https://mapr.com/">MAPR</a>
+     - 4）<a href="http://www.transwarp.cn/">Transwarp</a> 
    - 3.平台架构
      - 1）HDP Core(平台核心)
          - Hadoop(基础存储计算)
@@ -139,10 +139,10 @@
      - 1）爬虫平台开发利用推进
      - 2）API对接
      - 3）销售使用的外部工具数据取回
-         - 启信宝
-         - 企查查
-         - 天眼查
-         - 赤狐
+         - <a href="http://www.qixin.com/">启信宝</a>
+         - <a href="https://www.qichacha.com/">企查查</a>
+         - <a href="https://www.tianyancha.com/">天眼查</a>
+         - <a href="https://www.foxsaas.com/">赤狐</a>
          - 各种CRM
      - 4）运营使用的外部工具数据取回
          - 广点通
@@ -155,8 +155,8 @@
          - ......
    - 4.外部数据
      - 1）数据报告
-         - 199IT(100+)
-         - 艾瑞(100+)
+         - <a href="http://www.199it.com/archives/category/report">199IT(100+)</a>
+         - <a href="http://report.iresearch.cn/">艾瑞(100+)</a>
          - IT橘子
          - 国家互联网中心
          - 恒大研究院
@@ -177,7 +177,11 @@
          - 大盘数据
          - 行业动态数据 
      - 5）统计数据
+         -  <a href="https://account.similarweb.com/">Similar web</a>
+         -  <a href="https://www.newrank.cn/">新榜</a>
      - 6）数据资讯
+         - <a href="http://zhidx.com/">智东西</a>
+         - <a href="http://hao.199it.com/">大数据导航</a> 
  - 三：数据价值
    - 1.数据清洗
      - 日志数据清洗(UDF SparkStreaming )
@@ -262,7 +266,7 @@
              - 专业图书
              - 技术官网
              - github
-             - processon 里的推荐功能
+             - <a href="https://www.processon.com/popular">processon 里的推荐功能</a>
              - 技术博客
              - 知乎
              - 体系报告网站(参考 数据获取-外部数据-数据报告)
@@ -270,7 +274,7 @@
              - 谷歌百度
              - 找朋友聊  加微信QQ群
          - 记录整理
-             - 找个工具记录最散漫的疯狂的阅读与吸取
+             - 找个工具记录 散漫的疯狂阅读与吸取
              - 最好用表格来划分横向维度和纵向维度
          - 消除杂音  
              - 刨除过程中一些过时的资料或者概念
