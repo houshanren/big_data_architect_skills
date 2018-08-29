@@ -37,15 +37,28 @@
          - <a href="http://hadoop.apache.org/">Hadoop(基础存储计算)</a>
          - Yarn(基础资源调度)
          - Oozie(任务调度编排)
+             - 平台调度的基础保障
+             - hadoop 各种任务的使用与调度
+             - 对比 Azkaban Airflow 
          - Slider(调度支持 新版已经集成yarn)
      - 2）Enterpise Data Warehouse(企业数据仓库)
          - Pig(基础脚本服务)
          - Hive(数据仓库存储)
          - Druid(adhoc方案 实时多维查询和分析)
+             - 已处理数十亿事件和TB级数据
+             - 实时查询分析 高可用、高容错、高性能
+             - 交互式聚合和快速探究大量数据
+             - 为OLAP工作流的探索性分析而构建，支持各种过滤、聚合和查询
+             - 对比 drill es mdrill  等
          - Tez(简化增强hive)
          - Sqoop(数据导入导出工具)
      - 3）Data sclence(数据科学)
          - Spark(内存通用并行计算)
+             - 推荐相关
+             - 数据清洗
+             - 特征抽取
+             - 预测相关
+             - 对比 flink storm
          - Spark sql(结构化数据处理) 
          - Spark streaming(spark流式处理)
          - Zeppelin(界面分析挖掘工具)
@@ -56,6 +69,11 @@
          - Knox(鉴权工具)
          - Ranger(权限管理工具)
          - Atlas(元数据溯源与数据治理工具)
+             - 大数据平台下各种操作的元数据记录
+             - 数据打标签(对于维度 指标 ETL等)
+             - 可查询hive storm spark sqoop oozie nifi 元数据，可自定义实现自己的需要查看和维护的工具
+             - 数据流转流程的图像化展现
+             - 元数据操作记录与各种信息查询 
      - 6）Stream procressing(流式计算)
          - Storm(实时数据处理分析)
          - Kafka(数据消息队列)
@@ -82,6 +100,11 @@
      - 9）Data visualization(数据可视化工具)
          - Superset(数据分析界面工具)
          - <a href="http://www.finebi.com/product/">FineBI(BI界面分析工具)</a>
+             - 报表数据可视化
+             - 部分OLAP分析
+             - Fine Index
+             - FIne Direct
+             - 现场数据实时展示 
          - <a href="https://tuiqiao.github.io/CBoardDoc/#/">(Cboard) 主用于数据导出</a>
          - <a href="http://metabase.com/" >Metabase</a>
          - 对比 Saiku Tableau Qlikview 
