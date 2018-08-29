@@ -400,6 +400,8 @@
      - 3）多维度解读 
    - 4.工具利用
      - 1）时间管理工具
+         - <a href="https://www.omnigroup.com/omnifocus/">Omni Focus </a>
+         - <a href="https://www.tyme-app.com/">Tyme2</a>
      - 2）快速记录工具
      - 3）扩展思维工具
      - 4）学习成长工具 
