@@ -86,7 +86,7 @@
      - 6）Stream procressing(流式计算)
          - Storm(实时数据处理分析)
          - Kafka(数据消息队列)
-         - Streaming Analytics Manager	(流式数据处理界面工具)
+         - <a href="https://hortonworks.com/open-source/streaming-analytics-manager/">Streaming Analytics Manager	(流式数据处理界面工具) </a>
      - 7）Operations(平台运维工具)
          - Ambari(大数据平台管理工具)
          - Ambari Metrics(监控平台各类服务及主机的运行情况)
