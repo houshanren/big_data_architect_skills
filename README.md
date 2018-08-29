@@ -1,13 +1,13 @@
 ----- 还未完成 持续更新中 
 # 大数据架构师该掌握的技能
-主要分为两块 <a target="_blank"  href="#硬能力">硬能力</a> 与 <a target="_blank"  href="#软实力">软实力</a>  
+主要分为两块 <a href="#硬能力">硬能力</a> 与 <a href="#软实力">软实力</a>  
 >  
-## <a target="_blank"  name="硬能力">硬能力</a>
+## <a name="硬能力">硬能力</a>
  
  - 一：平台建设
    - 1.行业平台
      - 1）大平台
-         - <a target="_blank"  href="https://cloud.google.com/">谷歌云</a>
+         - <a href="https://cloud.google.com/">谷歌云</a>
          - 亚马逊云
          - 阿里云
          - 腾讯云
@@ -19,21 +19,22 @@
          - 青云
          - 勤思
      - 3）专业工具平台
-         - <a target="_blank"  href="https://www.bdp.cn/home.html">海致BDP</a>
-         - <a target="_blank"  href="http://www.yonghongtech.com/">永洪</a>
+         - <a href="https://www.bdp.cn/home.html">海致BDP</a>
+         - <a href="http://www.yonghongtech.com/">永洪</a>
+         - <a href="https://www.analysys.cn/">易观</a>
      - 4）APP分析平台
-         - <a target="_blank"  href="https://mixpanel.com/">mix panel</a>
-         - <a target="_blank"  href="https://www.growingio.com/">growing IO</a>
-         - <a target="_blank"  href="http://www.sensorsdata.cn/">神策</a>
-         - <a target="_blank"  href="https://zhugeio.com/">诸葛 IO</a>
+         - <a href="https://mixpanel.com/">mix panel</a>
+         - <a href="https://www.growingio.com/">growing IO</a>
+         - <a href="http://www.sensorsdata.cn/">神策</a>
+         - <a href="https://zhugeio.com/">诸葛 IO</a>
    - 2.技术选型
-     - 1）<a target="_blank"  href="https://www.cloudera.com/products/open-source/apache-hadoop/key-cdh-components.html" >CDH</a>
-     - 2）<a target="_blank"  href="https://hortonworks.com/products/">HDP+HDF</a>
-     - 3）<a target="_blank"  href="https://mapr.com/">MAPR</a>
-     - 4）<a target="_blank"  href="http://www.transwarp.cn/">Transwarp</a> 
+     - 1）<a href="https://www.cloudera.com/products/open-source/apache-hadoop/key-cdh-components.html" >CDH</a>
+     - 2）<a href="https://hortonworks.com/products/">HDP+HDF</a>
+     - 3）<a href="https://mapr.com/">MAPR</a>
+     - 4）<a href="http://www.transwarp.cn/">Transwarp</a> 
    - 3.平台架构
      - 1）HDP Core(平台核心)
-         - Hadoop(基础存储计算)
+         - <a href="http://hadoop.apache.org/">Hadoop(基础存储计算)</a>
          - Yarn(基础资源调度)
          - Oozie(任务调度编排)
          - Slider(调度支持 新版已经集成yarn)
@@ -80,9 +81,9 @@
          - Hue(大数据交互界面平台)
      - 9）Data visualization(数据可视化工具)
          - Superset(数据分析界面工具)
-         - FineBI(BI界面分析工具)
-         - (Cboard) 主用于数据导出
-         - Metabase
+         - <a href="http://www.finebi.com/product/">FineBI(BI界面分析工具)</a>
+         - <a href="https://tuiqiao.github.io/CBoardDoc/#/">(Cboard) 主用于数据导出</a>
+         - <a href="http://metabase.com/" >Metabase</a>
          - 对比 Saiku Tableau Qlikview 
      - 10）Kylin(MOLAP数据分析工具)
    - 4.资源申请
@@ -107,6 +108,7 @@
          - ArangoDB
      - 2）机器学习
      - 3）IOT相关
+   - 7.云平台化建设  
  - 二：数据获取
    - 1.公司内结构化数据
      - 1）增量
@@ -139,25 +141,25 @@
      - 1）爬虫平台开发利用推进
      - 2）API对接
      - 3）销售使用的外部工具数据取回
-         - <a target="_blank"  href="http://www.qixin.com/">启信宝</a>
-         - <a target="_blank"  href="https://www.qichacha.com/">企查查</a>
-         - <a target="_blank"  href="https://www.tianyancha.com/">天眼查</a>
-         - <a target="_blank"  href="https://www.foxsaas.com/">赤狐</a>
+         - <a href="http://www.qixin.com/">启信宝</a>
+         - <a href="https://www.qichacha.com/">企查查</a>
+         - <a href="https://www.tianyancha.com/">天眼查</a>
+         - <a href="https://www.foxsaas.com/">赤狐</a>
          - 各种CRM
      - 4）运营使用的外部工具数据取回
-         - 广点通
-         - 达摩盘
+         - <a href="http://e.qq.com/ads/" >广点通</a>
+         - <a href="http://dmp.taobao.com/" >达摩盘</a>
          - 知乎DSP
-         - 今日头条系
+         - <a href="https://ad.toutiao.com/">今日头条系</a>
          - 百度系
-         - 微博营销工具 
+         - <a href="https://weibo.com/">微博营销工具</a> 
          - 各种统计平台
          - ......
    - 4.外部数据
      - 1）数据报告
-         - <a target="_blank"  href="http://www.199it.com/archives/category/report">199IT(100+)</a>
-         - <a target="_blank"  href="http://report.iresearch.cn/">艾瑞(100+)</a>
-         - <a target="_blank"  href="https://detail.youzan.com/show/goods/newest?alias=2xlainh68rpkq">IT橘子</a>
+         - <a href="http://www.199it.com/archives/category/report">199IT(100+)</a>
+         - <a href="http://report.iresearch.cn/">艾瑞(100+)</a>
+         - <a href="https://detail.youzan.com/show/goods/newest?alias=2xlainh68rpkq">IT橘子</a>
          - 国家互联网中心
          - 恒大研究院
          - 亿欧智库
@@ -177,11 +179,11 @@
          - 大盘数据
          - 行业动态数据 
      - 5）统计数据
-         -  <a target="_blank"  href="https://account.similarweb.com/">Similar web</a>
-         -  <a target="_blank"  href="https://www.newrank.cn/">新榜</a>
+         -  <a href="https://account.similarweb.com/">Similar web</a>
+         -  <a href="https://www.newrank.cn/">新榜</a>
      - 6）数据资讯
-         - <a target="_blank"  href="http://zhidx.com/">智东西</a>
-         - <a target="_blank"  href="http://hao.199it.com/">大数据导航</a> 
+         - <a href="http://zhidx.com/">智东西</a>
+         - <a href="http://hao.199it.com/">大数据导航</a> 
  - 三：数据价值
    - 1.数据清洗
      - 日志数据清洗(UDF SparkStreaming )
@@ -257,7 +259,7 @@
    - 4.故障跟进
  
 >
-## <a target="_blank"  name="软实力">软实力</a>
+## <a name="软实力">软实力</a>
 
  - 一：个人素质
    - 1.体系化建设
@@ -266,7 +268,7 @@
              - 专业图书
              - 技术官网
              - github
-             - <a target="_blank"  href="https://www.processon.com/popular">processon 里的推荐功能</a>
+             - <a href="https://www.processon.com/popular">processon 里的推荐功能</a>
              - 技术博客
              - 知乎
              - 体系报告网站(参考 数据获取-外部数据-数据报告)
@@ -381,8 +383,8 @@
          - 归纳总结
      - 3）利用模板来快速制作和辅助思路
          - 参考模板
-             - <a target="_blank"  href="https://share.weiyun.com/04bb12cb3f5a8172d38d3794bac5bf4e">Layouts for Keynote(App Store有售)</a>
-             -  <a target="_blank"  href="http://www.pc6.com/mach/macmuban/" >PC6合集</a> 
+             - <a href="https://share.weiyun.com/04bb12cb3f5a8172d38d3794bac5bf4e">Layouts for Keynote(App Store有售)</a>
+             -  <a href="http://www.pc6.com/mach/macmuban/" >PC6合集</a> 
          - 辅助思路
              - 当有些思路阻碍可以看看模板上被人是如何处理和展现的
              - 运用模板的特殊元素来装扮自己的文案
