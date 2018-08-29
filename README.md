@@ -403,7 +403,12 @@
          - <a href="https://www.omnigroup.com/omnifocus/">Omni Focus </a>
          - <a href="https://www.tyme-app.com/">Tyme2</a>
      - 2）快速记录工具
+         - 备忘录
+         - Wiki
+         - <a href="http://macdown.uranusjr.com/">Macdown</a> 
      - 3）扩展思维工具
+         - <a href="https://mindnode.com/">MindNode</a>
+         - <a href="https://www.processon.com/">Processon</a>
      - 4）学习成长工具 
    - 5.清醒复盘
      - 1）复盘前的思考
