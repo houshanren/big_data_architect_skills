@@ -140,6 +140,7 @@
          - ArangoDB
      - 2）机器学习
      - 3）IOT相关
+     - 4）边缘计算
    - 7.云平台化建设  
  - 二：数据获取
    - 1.公司内结构化数据
@@ -183,8 +184,10 @@
          - <a href="http://dmp.taobao.com/" >达摩盘</a>
          - 知乎DSP
          - <a href="https://ad.toutiao.com/">今日头条系</a>
-         - 百度系
+         - <a href="https://mtj.baidu.com/web/welcome/login">百度系</a>
          - <a href="https://weibo.com/">微博营销工具</a> 
+         - <a href="https://dev.getui.com/dev/#/login">个推</a>
+         - 腾讯信鸽
          - 各种统计平台
          - ......
    - 4.外部数据
@@ -192,13 +195,13 @@
          - <a href="http://www.199it.com/archives/category/report">199IT(100+)</a>
          - <a href="http://report.iresearch.cn/">艾瑞(100+)</a>
          - <a href="https://detail.youzan.com/show/goods/newest?alias=2xlainh68rpkq">IT橘子</a>
-         - 国家互联网中心
+         - <a href="http://www.cnnic.net.cn/hlwfzyj/hlwxzbg/">国家互联网中心</a>
          - 恒大研究院
-         - 亿欧智库
-         - 易观数据
-         - 中国通信研究院
-         - 腾讯数据实验室
-         - 阿里研究中心 
+         - <a href="https://www.iyiou.com/intelligence/resource/ ">亿欧智库</a>
+         - <a href="https://www.analysys.cn/article#analysis">易观数据</a>
+         - <a href="http://www.catr.cn/kxyj/qwfb/bps/">中国通信研究院</a>
+         - <a href="https://e.tencent.com/v2/report/datareport.php">腾讯数据实验室</a>
+         - <a href="http://www.aliresearch.com/blog/index/lists/tag/3831.html">阿里研究中心 </a>
      - 2）商业合作
          - 数据交换
          - 专项购买
@@ -448,6 +451,10 @@
        - 不要触碰底线
        - 没有什么是烧烤不能解决的 如果有那就两顿
  - 三：技术能力 
+   - 1.编程
+   - 2.算法
+   - 3.数据仓库
+   - 4.工程
  - 四：人生之路
    - 1.平衡之道
      - 1) 规划VS变动
