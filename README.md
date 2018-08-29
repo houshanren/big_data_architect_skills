@@ -33,9 +33,18 @@
      - 3）<a href="https://mapr.com/">MAPR</a>
      - 4）<a href="http://www.transwarp.cn/">Transwarp</a> 
    - 3.平台架构
-     - 1）HDP Core(平台核心)
-         - <a href="http://hadoop.apache.org/">Hadoop(基础存储计算)</a>
+     - 1）HDP Core(平台核心也是Hadoop core)
+         - HDFS(存储)
+         - MapReduce(批处理)
          - Yarn(基础资源调度)
+             - 负责集群资源的统一管理和调度
+             - 单节点资源管理和使用 
+             - 应用程序管理 
+             - 对任务运行环境的抽象 
+             - 支持运行长应用程序和短应用程序
+             - 支持docker fpga
+             - 期待更细粒度的资源控制
+             - 对比Mesos
          - Oozie(任务调度编排)
              - 平台调度的基础保障
              - hadoop 各种任务的使用与调度
