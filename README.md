@@ -52,7 +52,14 @@
          - Slider(调度支持 新版已经集成yarn)
      - 2）Enterpise Data Warehouse(企业数据仓库)
          - Pig(基础脚本服务)
+             - 用类sql语言保证mr执行顺畅
+             - pig latin 的执行环境 
          - Hive(数据仓库存储)
+             - 基础数据仓库(ods gdm dw app dim)
+             - 基础ETL的运行实例
+             - OLAP的数据存储(kylin)
+             - 各种数据的hive外表用于查询
+             - 对比presto impala hawq 
          - Druid(adhoc方案 实时多维查询和分析)
              - 已处理数十亿事件和TB级数据
              - 实时查询分析 高可用、高容错、高性能
@@ -71,12 +78,23 @@
          - Spark sql(结构化数据处理) 
          - Spark streaming(spark流式处理)
          - Zeppelin(界面分析挖掘工具)
+             - 基于R和python的单机界面使用工具(分析挖掘)
+             - 基于spark kafka 的界面操作工具
+             - 基于预测数据的使用与展现
+             - 支持pandas numpy
+             - 支持R 
+             - 支持hive  hbase spark sparksql sparkstreaming
+             - 支持keras matplotlib pysql
      - 4）Operational data store(操作KV存储)
          - Hbase(kv数据存储)
          - Phoenix(hbase 类sql查询)
      - 5）Securlty governance(安全治理)
          - Knox(鉴权工具)
+             - 数据的权限鉴权通道
+             - 平台跟外部的出入口 
          - Ranger(权限管理工具)
+             - 架构下各组件的权限管理
+             - 记录操作日志到solr 
          - Atlas(元数据溯源与数据治理工具)
              - 大数据平台下各种操作的元数据记录
              - 数据打标签(对于维度 指标 ETL等)
@@ -116,7 +134,12 @@
              - 现场数据实时展示 
          - <a href="https://tuiqiao.github.io/CBoardDoc/#/">(Cboard) 主用于数据导出</a>
          - <a href="http://metabase.com/" >Metabase</a>
+             - 直接用来对接运营产品的数据交互工具
+             - 支持问题模式,支持对数据进行标记 
          - 对比 Saiku Tableau Qlikview 
+         - 自主研发
+             - Echarts
+             - inMap 
      - 10）Kylin(MOLAP数据分析工具)
    - 4.资源申请
      - 1）基准测试
@@ -248,6 +271,9 @@
      - 数据可视化
    - 4.商业智能
      - 关键指标与转化
+         - 博弈分析法(找到博弈方，找到博弈方的冲突与矛盾)
+         - 企业价值评估法(找到利益保持或者增长的关键点或者业务流程量化KPI)
+         - 行业参考(标准行业的指标体系)
      - 影响业务决策
      - 影响运营决策
      - 影响老板决策 
