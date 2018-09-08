@@ -105,6 +105,15 @@
          - Storm(实时数据处理分析)
          - Kafka(数据消息队列)
          - <a href="https://hortonworks.com/open-source/streaming-analytics-manager/">Streaming Analytics Manager	(流式数据处理界面工具) </a>
+             - 拖放可视化设计，开发，部署和管理流式数据分析应用程序
+             - 进行事件关联，上下文衔接，复杂模式匹配，分析聚合以及创建警报/通知 
+         - MiNiFi(边缘数据处理)
+             - 数据产生的源头收集和处理数据
+             - 通过实现边缘设备智能(edge intelligence)来调整数据流的双向通信
+             - 可以数据溯源(Data Provenance)
+             - 可以集中管理和下发Agents
+             - java agent
+             - c++ agent 
      - 7）Operations(平台运维工具)
          - Ambari(大数据平台管理工具)
          - Ambari Metrics(监控平台各类服务及主机的运行情况)
@@ -446,6 +455,8 @@
          - 突出主题模式
          - 流程讲解模式
          - 技术分享模式
+         - 融资招商模式
+         - 数据报告模式
      - 2）讲述靠说不靠堆叠
          - 言简意赅
          - 归纳总结
