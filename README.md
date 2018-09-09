@@ -59,13 +59,13 @@
              - 基础ETL的运行实例
              - OLAP的数据存储(kylin)
              - 各种数据的hive外表用于查询
-             - 对比presto impala hawq 
+             - 对比impala 
          - Druid(adhoc方案 实时多维查询和分析)
              - 已处理数十亿事件和TB级数据
              - 实时查询分析 高可用、高容错、高性能
              - 交互式聚合和快速探究大量数据
              - 为OLAP工作流的探索性分析而构建，支持各种过滤、聚合和查询
-             - 对比 drill es mdrill  等
+             - 对比 drill mdrill  等
          - Tez(简化增强hive)
          - Sqoop(数据导入导出工具)
      - 3）Data sclence(数据科学)
@@ -103,7 +103,7 @@
              - 元数据操作记录与各种信息查询 
      - 6）Stream procressing(流式计算)
          - Storm(实时数据处理分析)
-         - Kafka(数据消息队列)
+         - Kafka(分布式发布订阅消息系统) 
          - <a href="https://hortonworks.com/open-source/streaming-analytics-manager/">Streaming Analytics Manager	(流式数据处理界面工具) </a>
              - 拖放可视化设计，开发，部署和管理流式数据分析应用程序
              - 进行事件关联，上下文衔接，复杂模式匹配，分析聚合以及创建警报/通知 
@@ -149,7 +149,30 @@
          - 自主研发
              - Echarts
              - inMap 
-     - 10）Kylin(MOLAP数据分析工具)
+             - datav
+     - 10）OnlineAnalytical processing(OLAP解决方案 adhoc)
+	      - HashData(SQL on Cloud)
+	      - HAWQ(SQL on Hadoop)
+	      - GreenPlum(MPP架构升级版PostgreSQL)
+	      - PostgreSQL (单机ORDBMS)
+	      - Presto(MPP-SQL交互式查询引擎)
+	      - Elasticsearch
+	      - Kylin(MOLAP方案)
+	  - 11) Graph database(图数据库)
+	      - Janus Graph(图数据库引擎)
+	          - 图的序列化, 图的数据模型和高效的查询
+	          - 依赖hadoop来做图的统计和批量图操作
+	          - 为数据存储,索引和客户端访问实现了粗粒度的模块接口
+	          - 模块架构能和和许多存储,索引,客户端技术集成. 可以简便的扩展新的功能
+	      - Dgraph(事务性的分布式图形数据库)
+	          - 解决企业在数据库增长超过单个服务器时面临的一些问题而构建
+	          - 可扩展的，分布式的，低延迟的图数据库
+	          - 超过 TB 的结构数据里，为用户提供足够低延迟的实时查询
+	      - Neo4j(NoSQL图数据库)
+	      - ArangoDB(NoSQL数据库)
+	          - 原生多模型数据库
+	          - 可以将逻辑功能加入V8的 js framework Foxx™中 并可以完全访问所有功能
+	          - 可扩展性，JOINS, 复杂事务处理 
    - 4.资源申请
      - 1）基准测试
      - 2）资源预估(基于业务存量与增量)
@@ -165,14 +188,9 @@
      - 6）各种疑难杂症修复
      - 7）环境维护(正式 测试)
    - 6.技术调研 
-     - 1）图数据库
-         - Janus Graph
-         - Dgraph
-         - Neo4j
-         - ArangoDB
-     - 2）机器学习
-     - 3）IOT相关
-     - 4）边缘计算
+     - 1）机器学习
+     - 2）IOT相关
+     - 3）边缘计算
    - 7.云平台化建设  
  - 二：数据获取
    - 1.公司内结构化数据
@@ -546,4 +564,4 @@
 	      - 《影响力》
 
 # 技能图
-![](img/大数据架构师该做到的.jpg)
+![](img/大数据架构师该做到的.png)
