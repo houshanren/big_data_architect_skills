@@ -151,13 +151,38 @@
              - inMap 
              - datav
      - 10）OnlineAnalytical processing(OLAP解决方案 adhoc)
-	      - HashData(SQL on Cloud)
+         - Kylin(MOLAP方案)
+	          - 维度间交叉分析
+	          - 构建过程基于hive集群不需要单独搭建
+	          - 数据存储于hbase集群，主要消耗磁盘 
 	      - HAWQ(SQL on Hadoop)
+	          - 符合ANSI SQL规范并且支持SQL 92、99、2003 OLAP
+	          - 包含关联子查询、窗口函数、汇总与数据库、广泛的标量函数与聚合函数的功能
+	          - TPC-DS针对具有各种操作要求和复杂性的查询定义了99个模板（例如，点对点、报告、迭代、OLAP、数据挖掘等）
+	          - HAWQ使用Apache Ambari作为管理和配置的基础
 	      - GreenPlum(MPP架构升级版PostgreSQL)
+	          - 基于PostgreSQL
+	          - 采用两阶段提交和全局事务管理机制来保证集群上分布式事务的一致性
+	          - 建立在实例级别上的并行计算，可在一次SQL请求中利用到每个节点上的多个CPU CORE的计算能力
+	          - 解决大问题而设计的并行计算技术，而不是大量的小问题的高并发请求 
 	      - PostgreSQL (单机ORDBMS)
+	          - 天生就是为扩展而生的，可以在PG中用Python、C、Perl、TCL、PLSQL等来扩展
+	          - 强大 SQL 支持能力和非常丰富的统计函数和统计语法支持
+	          - hash join、merge join、nestloop join的支持方面做的较好 
 	      - Presto(MPP-SQL交互式查询引擎)
+	          - 多数据源(Hive,Hbase,RDBMS)
+	          - 支持标准SQL 不支持UDF
+	          - 对表的连接以及 group by操作有比较严格的大小限制
+	          - 对集群结点的内存和CPU消耗较大 
 	      - Elasticsearch
-	      - Kylin(MOLAP方案)
+	          - 横向可扩展，高可用 分片机制
+	          - 单集群,索引缓存在内存中,单节点易造成内存溢出
+	          - 不支持复杂sql,无法实现关联统计分析 
+	      - HashData(SQL on Cloud)
+	          - 托管于云平台，用户不再需要为基础设施投资，不再需要调优运维，仅为您使用的计算资源买单
+	          - 分布式架构，根据负载快速扩充计算能力，实现高性能计算，满足用户交互式查询的需求。
+	          - 云数据仓库,针对云平台订制设计。利用云计算的优势，实现数据仓库的高可用、快速恢复、弹性扩容 
+	      
 	  - 11) Graph database(图数据库)
 	      - Janus Graph(图数据库引擎)
 	          - 图的序列化, 图的数据模型和高效的查询
