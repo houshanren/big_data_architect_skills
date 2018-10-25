@@ -1,4 +1,6 @@
------ 还未完成 持续更新中 
+- ---- 还未完成 持续更新中  涉及到的平台对比 软件对比与场景适用后面会持续更新
+- ---- 关于软实力部分同步会更新场景落地
+  
 # 大数据架构师该掌握的技能
 主要分为两块 <a href="#硬能力">硬能力</a> 与 <a href="#软实力">软实力</a>  
 >  
@@ -75,6 +77,8 @@
              - 特征抽取
              - 预测相关
              - 对比 flink storm
+         - flink
+             -   
          - Spark sql(结构化数据处理) 
          - Spark streaming(spark流式处理)
          - Zeppelin(界面分析挖掘工具)
@@ -147,7 +151,7 @@
              - 支持问题模式,支持对数据进行标记 
          - 对比 Saiku Tableau Qlikview 
          - 自主研发
-             - Echarts
+             - Echarts HighCharts
              - inMap 
              - datav
      - 10）OnlineAnalytical processing(OLAP解决方案 adhoc)
@@ -160,12 +164,13 @@
 	          - 包含关联子查询、窗口函数、汇总与数据库、广泛的标量函数与聚合函数的功能
 	          - TPC-DS针对具有各种操作要求和复杂性的查询定义了99个模板（例如，点对点、报告、迭代、OLAP、数据挖掘等）
 	          - HAWQ使用Apache Ambari作为管理和配置的基础
-	      - GreenPlum(MPP架构升级版PostgreSQL)
+	      - GreenPlum(MPP架构升级版PostgreSQL) <a href="https://github.com/kongyew/awesome-greenplum">学习资料</a>
+
 	          - 基于PostgreSQL
 	          - 采用两阶段提交和全局事务管理机制来保证集群上分布式事务的一致性
 	          - 建立在实例级别上的并行计算，可在一次SQL请求中利用到每个节点上的多个CPU CORE的计算能力
 	          - 解决大问题而设计的并行计算技术，而不是大量的小问题的高并发请求 
-	      - PostgreSQL (单机ORDBMS)
+	      - PostgreSQL (单机ORDBMS) <a href="https://github.com/digoal/blog">学习资料</a>
 	          - 天生就是为扩展而生的，可以在PG中用Python、C、Perl、TCL、PLSQL等来扩展
 	          - 强大 SQL 支持能力和非常丰富的统计函数和统计语法支持
 	          - hash join、merge join、nestloop join的支持方面做的较好 
@@ -182,9 +187,15 @@
 	          - 托管于云平台，用户不再需要为基础设施投资，不再需要调优运维，仅为您使用的计算资源买单
 	          - 分布式架构，根据负载快速扩充计算能力，实现高性能计算，满足用户交互式查询的需求。
 	          - 云数据仓库,针对云平台订制设计。利用云计算的优势，实现数据仓库的高可用、快速恢复、弹性扩容 
+	      - ClickHouse  <a hrfe="https://clickhouse.yandex/docs/zh/"> 学习资料</a>
+	          - 实时数据更新
+	          - 关系型、支持SQL
+	          - 可以不依赖hadoop平台
+	          - 分布式并行计算，把单机性能压榨到极限
+	          - 列式存储数据库，数据压缩 
 	      
-	  - 11) Graph database(图数据库)
-	      - Janus Graph(图数据库引擎)
+	  - 11) Graph database(图数据库) <a> 对比图</a>
+	      - <a href="https://github.com/JanusGraph/janusgraph">Janus Graph(图数据库引擎)</a>
 	          - 图的序列化, 图的数据模型和高效的查询
 	          - 依赖hadoop来做图的统计和批量图操作
 	          - 为数据存储,索引和客户端访问实现了粗粒度的模块接口
