@@ -2,7 +2,7 @@
 - ----  关于软实力部分同步会更新场景落地
 - ----  <a href="https://www.processon.com/view/5c3e0543e4b0db2e59364112">直接访问ProcessOn脑图  请点击</a>
 - ----  [高清大图](img/大数据架构师该做到的.jpg)
-- ----  [脑图文件](img/大数据架构师该做到的.jpg)
+- ----  [脑图文件](mindenode/大数据架构师该做到的.mindnode)
 
 # 技能图
 
